@@ -63,6 +63,7 @@ function PersonCard({ person }: { person: Person }) {
           @{person.username}
         </Typography>
         <AnchorLink
+          target="_blank"
           href={`http://${person.website}`}
           sx={{
             fontSize: "15px",
