@@ -1,7 +1,9 @@
 import axios from "axios";
 import * as _ from "lodash";
 
-const baseUrl = "https://jsonplaceholder.typicode.com/users";
+require("dotenv").config();
+
+const baseUrl = process.env.REACT_APP_BACKEND_URL as string;
 
 async function getAll(): Promise<Person[]> {
   const response = await axios.get(baseUrl);
