@@ -19,7 +19,7 @@ function DetailsCard({ person }: { person: Person }) {
         <TextItem field="email" value={person.email} />
         <TextItem field="phone" value={person.phone} />
         <TextItem field="company" value={person.company.name} />
-
+        <TextItem field="website" value={person.website} />
         <li>
           address:
           <ul className="subitem">
