@@ -1,0 +1,35 @@
+.box {
+  display: inline-block;
+  margin-top: 2em;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+li {
+  font-size: 15px;
+  color: #160411;
+}
+
+ul.item {
+  list-style-type: none;
+}
+
+ul.item li {
+  margin-top: 0.6em;
+}
+
+ul.item li:before {
+  content: "- ";
+}
+
+ul.subitem li {
+  margin-top: 0.1em;
+}
+
+ul.subitem {
+  list-style-type: disc;
+}
+
+ul.subitem li:before {
+  content: "";
+}
