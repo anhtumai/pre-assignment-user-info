@@ -8,10 +8,11 @@ function PersonCardList({ persons }: { persons: Person[] }) {
       sx={{
         width: "60%",
         margin: "auto",
-        marginTop: "2em",
+        marginTop: "3em",
+        marginBottom: "3em",
       }}
     >
-      <Grid container justifyContent="center" spacing={6} sx={{ flexGrow: 1 }}>
+      <Grid container justifyContent="center" spacing={9} sx={{ flexGrow: 1 }}>
         {persons.map((person) => (
           <Grid item key={person.id}>
             <PersonCard person={person} />

@@ -1,12 +1,16 @@
 .box {
   display: inline-block;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-left: 50%;
   transform: translateX(-50%);
+  width: 22rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 li {
-  font-size: 15px;
+  font-size: 22.5px;
   color: #160411;
 }
 
@@ -15,7 +19,7 @@ ul.item {
 }
 
 ul.item li {
-  margin-top: 0.6em;
+  margin-top: 0.9em;
 }
 
 ul.item li:before {
@@ -23,7 +27,7 @@ ul.item li:before {
 }
 
 ul.subitem li {
-  margin-top: 0.1em;
+  margin-top: 0.15em;
 }
 
 ul.subitem {

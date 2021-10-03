@@ -11,7 +11,7 @@ const Header = () => {
             component="div"
             sx={{
               flexGrow: 1,
-              fontSize: "17px",
+              fontSize: "25.5px",
             }}
           >
             Integrify
@@ -21,7 +21,7 @@ const Header = () => {
             component={Link}
             to="/"
             sx={{
-              fontSize: "17px",
+              fontSize: "25.5px",
             }}
           >
             Home

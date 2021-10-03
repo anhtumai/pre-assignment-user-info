@@ -14,13 +14,13 @@ function PersonCard({ person }: { person: Person }) {
   return (
     <Card
       sx={{
-        width: "160px",
+        width: "240px",
         bgcolor: "background.paper",
         border: 1,
         borderColor: "grey.300",
         borderRadius: 2,
         boxShadow: 3,
-        minHeight: "240px",
+        minHeight: "330px",
         position: "relative",
       }}
     >
@@ -29,11 +29,11 @@ function PersonCard({ person }: { person: Person }) {
           sx={{
             bgcolor: "#e8e4e4",
             color: "#484444",
-            width: "70px",
-            height: "70px",
+            width: "105px",
+            height: "105px",
             margin: "auto",
-            marginTop: "4px",
-            fontSize: "24px",
+            marginTop: "6px",
+            fontSize: "36px",
           }}
         >
           {person.name[0].toUpperCase()}
@@ -44,8 +44,8 @@ function PersonCard({ person }: { person: Person }) {
           align="center"
           color="#484444"
           sx={{
-            marginTop: "11px",
-            fontSize: "14px",
+            marginTop: "16.5px",
+            fontSize: "21px",
             fontWeight: 700,
           }}
         >
@@ -55,8 +55,8 @@ function PersonCard({ person }: { person: Person }) {
           align="center"
           color="#979797"
           sx={{
-            marginTop: "3px",
-            fontSize: "10px",
+            marginTop: "4.5px",
+            fontSize: "15px",
             fontStyle: "italic",
           }}
         >
@@ -65,11 +65,11 @@ function PersonCard({ person }: { person: Person }) {
         <AnchorLink
           href={`http://${person.website}`}
           sx={{
-            fontSize: "10px",
+            fontSize: "15px",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "5px",
+            marginTop: "7.5px",
           }}
         >
           http://{person.website}
@@ -87,9 +87,9 @@ function PersonCard({ person }: { person: Person }) {
           component={Link}
           to={`/people/${person.id}`}
           sx={{
-            fontSize: "12px",
+            fontSize: "18px",
             left: "50%",
-            marginLeft: "-26px",
+            marginLeft: "-30.7px",
           }}
         >
           More details
